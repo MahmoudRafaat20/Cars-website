@@ -1,0 +1,136 @@
+body{
+    overflow-x: hidden;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius:10px ;
+}
+.header .row .col img{
+ max-width: 730px ;
+}
+.cards .col{
+    width: 30% !important;  
+}
+
+.cards{
+    background-color: rgb(247, 250, 255);
+}
+
+
+button:hover{
+    color: white;
+    background-color: rgb(134, 134, 141);  
+}
+.btn:hover{
+    color: rgb(30, 36, 199);
+    background-color: white;
+}
+.footer{
+    background-color:rgb(6, 28, 52);
+}
+.header{
+    background-image: url("assets/images/landing-page/Frame.png");
+    background-position:right;
+    background-repeat: no-repeat;
+}
+.experiences{
+    background-image: url("assets/images/landing-page/sec-5/Vector.png");
+    background-repeat: no-repeat;
+}
+.details{
+    background-image: url("assets/images/landing-page/sec-5/Vector.png");
+    background-repeat: no-repeat;
+     padding: 50px 0px;
+}
+
+.rates{
+    background-image: url("src/assets/images/landing-page/sec-6/bg-sec6.png");
+    background-repeat: no-repeat;
+    background-position:right top;
+}
+
+.download input{
+    background-color: rgb(206, 220, 255);
+  border-radius: 15px;
+   border: 1px ;
+}
+.cars .col-3{
+    max-height: 500px;
+}
+.car-cards{
+   width: 300px !important;
+   
+  margin: 15px;
+}
+.cars{
+    padding: 50px;
+}
+.rate-button{
+    background-color: rgb(224, 238, 251) !important;
+}
+.show-button:hover{
+   color: white;
+   background-color:gray;
+}
+
+
+@media  (max-width:468px) {
+    .cards .col{
+        width: 70% !important;  
+    }
+    .iphone img{
+        width: 300px;
+    }
+    .girl-img{
+        height: 300px;
+    }
+    .row.download {
+        width: 50%;
+    }
+    .car img{
+        width: 385px;
+    }
+    .social{
+        padding: 2px 0px;
+    }
+    .deal .cars{
+        flex-direction: column;
+    }
+    .deal .cars .card{
+        margin-top:10px;
+        flex-direction: column;
+        width: 340px ;
+    }
+    .header .row{
+        flex-direction: column-reverse;
+    }
+   
+
+     
+}
+@media  (min-width:765px) and (max-width:1100px){
+    .girl-image {
+      height: 235px !important;
+    }
+    .car img{
+        width: 470px;
+    }
+    .jaguar-photo{
+        height: 158px;
+    }
+    .car-cards{
+        width: 100% !important;
+     }
+
+}
+@media (min-width:1110px){
+    .girl-image {
+        height: 480px !important;
+      }
+      .jaguar-photo{
+        height: 178px;
+    }
+     
+}
+
