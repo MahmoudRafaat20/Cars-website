@@ -17,7 +17,7 @@ const Cars = () => {
     let [cars, setCars] = useState([])
     let getCars = async () => {
         let response = await axios.get("https://myfakeapi.com/api/cars?limit=30");
-        setCars(response?.data?.cars);
+        setCars(response?.data?.cars.slice(0,10));
     }
     useEffect(() => {
         getCars()

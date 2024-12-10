@@ -13,7 +13,7 @@ const routes = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    index: true, // Specify this route as the index route for "/"
+    index: true,
   },
   {
     path: "cars",
