@@ -1,7 +1,7 @@
 import React from 'react';
 import android from "../assets/images/landing-page/andriod.png"
 import ios from "../assets/images/landing-page/ios.png"
-import iphone from "../assets/images/landing-page/sec-7/iphone-14.png"
+import iphone from "../assets/images/landing-page/sec-7/iPhone-14.png"
 const Download = () => {
     return (
         <div  >
