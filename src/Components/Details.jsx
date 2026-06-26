@@ -5,9 +5,11 @@ import user from "../assets/card/user.png"
 import air from "../assets/card/d8wxke_2_.png"
 import frame from "../assets/card/frame.png"
 import doors from "../assets/card/doors.png"
+import { Link } from 'react-router-dom';
 const Details = () => {
     return (
         <div className='details'>
+             <Link  to='/' className='ml-4'>Home</Link>
                  <div className='row d-flex align-items-center '>
                 <div className='car col'>
                     <img src={audi}  />
