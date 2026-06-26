@@ -15,11 +15,14 @@ const Cars = () => {
     let [cars, setCars] = useState([])
     let getCars = async () => {
         let response = await axios.get("https://myfakeapi.com/api/cars");
+
         setCars(response?.data?.cars.slice(0, 10));
-    }
+
+        setCars(response?.data?.cars.slice(0,10));
+
     useEffect(() => {
         getCars()
-    }, [])
+    }, [])}
     return (
         <div className='cars mx-1'>
             <div className="input-group text-center " >
