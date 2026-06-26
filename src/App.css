@@ -75,7 +75,8 @@ button:hover{
 }
 
 
-@media  (max-width:468px) {
+
+@media  (max-width:490px) {
     .cards .col{
         width: 70% !important;  
     }
@@ -99,11 +100,16 @@ button:hover{
     }
     .deal .cars .card{
         margin-top:10px;
-        flex-direction: column;
+        
         width: 340px ;
     }
+ 
     .header .row{
         flex-direction: column-reverse;
+    }
+    .cars .row{
+        width: 100% !important;
+        margin:0 !important;
     }
    
 

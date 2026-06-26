@@ -8,7 +8,7 @@ import instagram from "../assets/footer/instagram.png"
 import youtube from "../assets/footer/youtube.png"
 const Footer = () => {
     return (
-        <div className='text-center footer text-light '>
+        <div className='text-center footer text-light px-3'>
             <div className="row  ">
                 <div className="col-md-4">
                     <div className='p-5 text-start'>

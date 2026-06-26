@@ -11,7 +11,7 @@ import arrow from "../assets/card/arrow-right.png"
 import { Link } from 'react-router-dom';
 const Deals = () => {
     return (
-        <div className='deals m-1'>
+        <div className='deals '>
             <div className="input-group text-center p-5" >
                 <i className="fa-solid fa-location-dot input-group-text"></i>
                 <input type="text" className="form-control " placeholder="Search by name" aria-label="Recipient's username" aria-describedby="button-addon2" />
@@ -23,9 +23,9 @@ const Deals = () => {
                     <h1 className='py-3' >Most popular cars rental deals </h1>
                 </div>
                 <div className="cars row px-2 d-flex ">
-                <div className="col-3 ">
+                    <div className="col-3  ">
                         <div className="card shadow ">
-                            <img src={car1} height={180}/>
+                            <img src={car1} height={180} />
                             <div className="card-body text-start ">
                                 <h5 className="card-title">BMW M3</h5>
                                 <img src={star} /><span className='px-1'>4.5<span className='opacity-50'> (2436 reviews)</span></span>
@@ -50,7 +50,7 @@ const Deals = () => {
                     </div>
                     <div className="col-3 ">
                         <div className="card shadow">
-                            <img src={car2} height={180} className='w-100'/>
+                            <img src={car2} height={180} className='w-100' />
                             <div className="card-body text-start ">
                                 <h5 class="card-title">Audi r8</h5>
                                 <img src={star} /><span className='px-1'>4.6<span className='opacity-50'> (2436 reviews)</span></span>
@@ -75,7 +75,7 @@ const Deals = () => {
                     </div>
                     <div className="col-3 ">
                         <div className="card shadow ">
-                            <img src={car3}  className='jaguar-photo'/>
+                            <img src={car3} className='jaguar-photo' />
                             <div className="card-body text-start p-3">
                                 <h5 className="card-title">JAGUAR XE L P250</h5>
                                 <img src={star} /><span className='px-1'>4.8<span className='opacity-50'> (2436 reviews)</span></span>
@@ -100,7 +100,7 @@ const Deals = () => {
                     </div>
                     <div className="col-3 ">
                         <div className="card shadow">
-                            <img src={car2} height={180}/>
+                            <img src={car2} height={180} />
                             <div className="card-body text-start ">
                                 <h5 className="card-title">Audi r8</h5>
                                 <img src={star} /><span className='px-1'>4.8<span className='opacity-50'> (2436 reviews)</span></span>
@@ -124,7 +124,7 @@ const Deals = () => {
                         </div>
                     </div>
                 </div>
-                <Link  className="show-button btn btn-transparent btn-outline-secondary m-5 px-5" to="/cars">Show more vihecles<i className="px-2 fas fa-long-arrow-alt-right"></i></Link>
+                <Link className="show-button btn btn-transparent btn-outline-secondary m-5 px-5" to="/cars">Show more vihecles<i className="px-2 fas fa-long-arrow-alt-right"></i></Link>
             </div>
         </div>
     );

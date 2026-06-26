@@ -31,8 +31,8 @@ const Header = () => {
                             <button className='btn btn-transparent border mx-3'>Sign in</button>
                             <button className='btn btn-primary border mx-3'>Sign up</button>
                         </div>
+                        
                     </div>
-
                 </div>
             </nav>
             <div className=" row d-flex align-items-center">

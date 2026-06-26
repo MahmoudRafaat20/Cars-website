@@ -7,9 +7,7 @@ import Experiences from '../Experiences';
 import Rates from '../Rates';
 import Download from '../Download';
 import Footer from '../Footer';
-import Cars from '../Cars';
-import { Outlet } from 'react-router-dom';
-import Details from '../Details';
+
 
 const Home = () => {
     return (
