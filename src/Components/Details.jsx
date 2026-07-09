@@ -3,7 +3,7 @@ import audi from "../assets/images/landing-page/sec-5/Audi 1.png"
 import user from "../assets/card/user.png"
 
 import air from "../assets/card/d8wxke_2_.png"
-import frame from "../assets/card/frame.png"
+import frame from "../assets/card/Frame.png"
 import doors from "../assets/card/doors.png"
 import { Link } from 'react-router-dom';
 const Details = () => {
