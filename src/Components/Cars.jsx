@@ -5,7 +5,7 @@ import car3 from "../assets/images/landing-page/car3.png"
 import car1 from "../assets/images/landing-page/car1.png"
 import arrow from "../assets/card/arrow-right.png"
 import star from "../assets/card/star.png"
-import frame from "../assets/card/frame.png"
+import frame from "../assets/card/Frame.png"
 import user from "../assets/card/user.png"
 import air from "../assets/card/d8wxke_2_.png"
 import doors from "../assets/card/doors.png"
@@ -15,10 +15,7 @@ const Cars = () => {
     let [cars, setCars] = useState([])
     let getCars = async () => {
         let response = await axios.get("https://myfakeapi.com/api/cars");
-
         setCars(response?.data?.cars.slice(0, 10));
-
-        setCars(response?.data?.cars.slice(0,10));
 
     useEffect(() => {
         getCars()
